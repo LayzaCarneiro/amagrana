@@ -157,6 +157,17 @@ struct Persistence {
         return contents.map { $0.lastPathComponent }
     }
     
+    static func saveIfEmpty<T: Encodable>(model: T, filename: String) {
+        do {
+            let files = try Persistence.listContents(folder: "")
+            if !files.contains(filename) {
+                try Persistence.saveJson(model, file: filename)
+            }
+        } catch {
+            print("saveIfEmpty error: ", error)
+        }
+    }
+    
     private static func buildURL(appending path: String) throws -> URL {
         assert(!_projectName.isEmpty, "Persistence.projectName vazio. Você lembrou de configurá-lo em algum lugar?")
         let home = FileManager.default.homeDirectoryForCurrentUser
