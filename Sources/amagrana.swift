@@ -55,16 +55,14 @@ struct Amagrana: ParsableCommand {
         setup()
         if estatísticas {
             estatisticasPrint()
-        }
-        else if instrucoes {
+        } else if instrucoes {
             instrucoesPrint()
-        }
-        else if helper {
+        } else if helper {
             menuPrint()
         }
     }
     
-    func estatisticasPrint(){
+    func estatisticasPrint() {
         Persistence.projectName = "amagrana"
         let model: Model = (try? Persistence.readJson(file: "amagrana.json")) ?? Model(usuarios: [], palavras: [], historicos: [])
         
@@ -135,7 +133,6 @@ struct Amagrana: ParsableCommand {
         print("loucos".yellow)
         print("______\n______\n\n")
         
-        
         print("DICA\nAo pedir dica, você receberá uma nova palavra".blue)
         print("OBS: Para pedir dica, é necessário ter ao menos 1 Grana e acertado uma palavra")
         print("""
@@ -204,11 +201,11 @@ struct Amagrana: ParsableCommand {
         
         """.blue)
         
-        print("      >> START GAME <<           swift run amagrana start        ".blue)
-        print("         INSTRUÇÕES              swift run amagrana -i           ".blue)
-        print("         ESTATÍSTICAS            swift run amagrana -e           ".blue)
-        print("         MENU                    swift run amagrana -h           ".blue)
-        print("         HELP                    swift run amagrana --help       ".blue)
+        print("      >> START GAME <<           amagrana start        ".blue)
+        print("         INSTRUÇÕES              amagrana -i           ".blue)
+        print("         ESTATÍSTICAS            amagrana -e           ".blue)
+        print("         MENU                    amagrana -h           ".blue)
+        print("         HELP                    amagrana --help       ".blue)
         print("\n\n")
     }
 }
@@ -301,7 +298,7 @@ struct Start: ParsableCommand {
                         usuario = "Temporário" // se quiser entrar como usuário temporário
                     }
                 }
-            } 
+            }
             // se quiser sair no meio da validação
             else if user == "--sair" {
                 return (user, grana)
@@ -479,7 +476,7 @@ struct Start: ParsableCommand {
     }
     
     // função para pegar a data do dia jogado no formato dd/MM/yyyy
-    func data() -> String{
+    func data() -> String {
         let agora = Date()
         let formatador = DateFormatter()
         formatador.dateFormat = "dd/MM/yyyy"
