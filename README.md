@@ -3,7 +3,7 @@
 <img src="https://private-user-images.githubusercontent.com/110754646/319213749-d2428aae-c5b5-4809-9697-de6ddb42bded.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTIxNTM4OTksIm5iZiI6MTcxMjE1MzU5OSwicGF0aCI6Ii8xMTA3NTQ2NDYvMzE5MjEzNzQ5LWQyNDI4YWFlLWM1YjUtNDgwOS05Njk3LWRlNmRkYjQyYmRlZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQwM1QxNDEzMTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01MTgwZmY2MmU5NDk2YzY4MTA5MmFlNmYwZDE0ZDlmZDQ1OGMzYzFhMTExYzg0ZDliM2NiNTM5MWI0MzFmN2UwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.e_Uz2E06vxCgRKmsHZmrh5-yzaznt9mP2O1qwCpLr80">
 <h2>Description</h2>
 The objective of the game is to use the available letters to form different words and earn money with each correct answer, earn as much money as possible. It's a great activity for those who want to practice logic and improve vocabulary. 
-*Amagrana is the combination of Anagram with money ("grana") in Portuguese.
+*Amagrana is the combination of Anagram with $ money ("grana") in Portuguese.
 
 
 <h2>Usage</h2>
